@@ -1,0 +1,13 @@
+# Escher
+
+main:
+translate -20 -20
+repeatplanar white 5 5 27 25 3
+translate 0 12
+repeatplanar blue 5 5 27 25 3
+
+white:
+image ../whiteduck.png 0 0 0.5 0
+
+blue:
+image ../blueduck.png 0 0 0.5 0

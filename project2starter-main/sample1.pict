@@ -1,0 +1,17 @@
+# Mondrian painting
+
+main:
+call squares
+call lines
+
+squares:
+square blue 0 0 20 20
+square red 22 22 78 78
+square yellow 93 0 7 10 
+
+lines:
+line black 2 21 0 21 100
+line black 2 0 21 100 21
+line black 4 0 50 20 50
+line black 2 93 0 93 20
+line black 2 93 10 100 10

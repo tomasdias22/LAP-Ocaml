@@ -1,0 +1,9 @@
+
+tile:
+square red 0 0 10 10
+
+main:
+rotate 45.0
+translate 20 0
+call tile
+

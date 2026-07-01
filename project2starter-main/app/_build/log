@@ -1,0 +1,16 @@
+# dune exec ./main.exe ../sample4.pict
+# OCAMLPARAM: unset
+# Shared cache: enabled-except-user-rules
+# Shared cache location: /home/tpdias/.cache/dune/db
+# Workspace root: /home/tpdias/lap2025/project2starter-main/app
+# Auto-detected concurrency: 8
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dev
+#  ; merlin = true
+#  ; fdo_target_exe = None
+#  ; build_dir = In_build_dir "default"
+#  ; instrument_with = []
+#  }
+$ /home/tpdias/.opam/lap2025/bin/ocamlc.opt -config > /tmp/dune_b202a2_output

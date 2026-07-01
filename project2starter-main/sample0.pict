@@ -1,0 +1,8 @@
+# Simple tiling program
+
+main:
+square red 0 0 50 50
+square blue 50 50 50 50
+line black 2 0 0 100 100
+text black 20 10 20 "Hello, Escher!"
+image ../escher.png 20 20 1 0
