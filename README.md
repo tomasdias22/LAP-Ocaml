@@ -1,18 +1,18 @@
 #  Tiling Language Interpreter: From Mondrian to Escher
 
-[cite_start]This repository contains my implementation of a tiling language interpreter developed in **OCaml** for the Languages and Programming Environments course[cite: 3]. 
+This repository contains my implementation of a tiling language interpreter developed in **OCaml** for the Languages and Programming Environments course. 
 
-The project's goal is to interpret simple programs that generate abstract geometric compositions inspired by **Piet Mondrian** and complex tessellations inspired by **M.C. [cite_start]Escher**[cite: 11, 13].
+The project's goal is to interpret simple programs that generate abstract geometric compositions inspired by **Piet Mondrian** and complex tessellations inspired by **M.C.
 
-## 🚀 Language Features
+## Language Features
 
-The interpreter processes `.pict` text files composed of labels and instructions. [cite_start]Execution always starts at the `main` label[cite: 24, 44].
+The interpreter processes `.pict` text files composed of labels and instructions.Execution always starts at the `main` label
 
 ### Drawing Primitives
-* [cite_start]`square color x y w h`: Draws a filled rectangle/square[cite: 53].
-* `line color lw x1 y1 x2 y2`: Draws a line[cite: 53].
-* [cite_start]`text color x y size words`: Draws text on the screen[cite: 53].
-* [cite_start]`image file x y scale rotation`: Loads and draws an image[cite: 53].
+* [cite_start]`square color x y w h`: Draws a filled rectangle/square
+* `line color lw x1 y1 x2 y2`: Draws a line
+* [cite_start]`text color x y size words`: Draws text on the screen
+* [cite_start]`image file x y scale rotation`: Loads and draws an image
 
 ### Control & Geometric Transformations
 The interpreter's engine is based on an immutable referential system (state `t`) to isolate local transformations.
